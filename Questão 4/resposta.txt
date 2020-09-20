@@ -1,0 +1,13 @@
+Letra a - Vai imprimir 20
+Letra b - Vai imprimir 29.0
+Letra c - Vai imprimir P
+Letra d - Vai imprimir e
+Letra e - Vai imprimir P
+Letra f - Vai imprimir e
+Letra g - Vai imprimir t
+Letra h - Vai imprimir 31
+Letra i - Vai imprimir 45
+Letra j - Vai imprimir 27
+Letra l - Vai imprimir 31
+Letra m - Vai imprimir 45
+Letra n - Vai imprimir 27

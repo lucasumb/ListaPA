@@ -1,0 +1,11 @@
+  
+obs: "i" e "j" são inteiros e "p" e "q" são ponteiros para int.
+
+p = i;     //Não pode
+q = &j;     //Pode
+p = &*&i;   //Pode
+i = (*&)j;   //Não pode
+i = *&j;   //Pode
+i = *&*&j;   //Pode
+q = *p;   //Não pode
+i = (*p)++ + *q;   //Pode
