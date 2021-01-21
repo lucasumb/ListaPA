@@ -1,3 +1,3 @@
 Integrantes: 
 * Lucas Umbelino
-* Jaysa
+* Jaysa Barbosa
