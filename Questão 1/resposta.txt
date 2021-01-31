@@ -4,7 +4,7 @@ p = &i;
 q = &j;
 
 
-p = &j;                                                      // RESPOSTA: p= 5  (p vai receber o endereço de j, logo seu conteúdo vai ser 5)
-*p - *q;                                                     // RESPOSTA: Vai ser -2. (Uso do operador de dereferência, faz com que recupere o conteúdo apontado pelo ponteiros, logo vai dar 3-5 = -2)
-**&p;                                                        // RESPOSTA: Vai ser 3.
-3 - *p/(*q) + 7;                                             // RESPOSTA: 3 - 3/(5) + 7 = 3-0+7 (como tratasse de inteiro, a divisão vai arredondar para 0) = 10
+p == &i;                  // RESPOSTA: A condição vai resultar em True.
+*p - *q;                  // RESPOSTA: Vai ser -2. (Uso do operador de dereferência, faz com que recupere o conteúdo apontado pelo ponteiros, logo vai dar 3-5 = -2)
+**&p;                     // RESPOSTA: Vai ser 3.
+3 - *p/(*q) + 7;          // RESPOSTA: 3 - 3/(5) + 7 = 3-0+7 (como tratasse de inteiro, a divisão vai arredondar para 0) = 10
